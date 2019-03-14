@@ -5,4 +5,4 @@ MAINTAINER mike.coleman@docker.com
 COPY index.html /usr/share/nginx/html/ 
 
 # expose port 80
-EXPOSE 80
+EXPOSE 80 443
