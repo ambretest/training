@@ -1,5 +1,5 @@
 FROM nginx:latest
-MAINTAINER mike.coleman@docker.com
+LABEL maintainer=samir.lakhdari@free.fr
 
 # Copy index.html  
 COPY index.html /usr/share/nginx/html/ 
