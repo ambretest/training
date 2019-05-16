@@ -1,5 +1,5 @@
 FROM nginx:latest
-LABEL maintainer=samir.lakhdari@free.fr
+LABEL maintainer=samir.lakhdari@gmail.com
 
 # Copy index.html  
 COPY index.html /usr/share/nginx/html/ 
