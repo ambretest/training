@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.17
 LABEL maintainer=samir.lakhdari@gmail.com
 
 # Copy index.html  
